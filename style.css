@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
 
 html {
 box-sizing: border-box;     /* Undviker att padding lägger på extra bredd och höjd hos elementen */
@@ -6,4 +7,15 @@ box-sizing: border-box;     /* Undviker att padding lägger på extra bredd och 
 body {
     margin: 0;
     min-height: 100vh;
+    font-family: "Anta", sans-serif;
+    background: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
